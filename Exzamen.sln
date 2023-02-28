@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskConsole7CLR", "TaskCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6_XAML", "TaskGUI6\Task6_XAML.csproj", "{FB0186F5-2417-43C8-BF01-8C1B9113E70D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_Form", "Task11_Form\Task11_Form.csproj", "{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,18 @@ Global
 		{FB0186F5-2417-43C8-BF01-8C1B9113E70D}.Release|x64.Build.0 = Release|Any CPU
 		{FB0186F5-2417-43C8-BF01-8C1B9113E70D}.Release|x86.ActiveCfg = Release|Any CPU
 		{FB0186F5-2417-43C8-BF01-8C1B9113E70D}.Release|x86.Build.0 = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|x64.Build.0 = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Debug|x86.Build.0 = Debug|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|x64.Build.0 = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6FA6214-ECE1-47D0-8D1D-DAECF83EFF52}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

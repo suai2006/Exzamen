@@ -18,6 +18,31 @@
             </Grid.ColumnDefinitions>
             <Button Name="AddItem" Grid.Column="1" Content="Добавить" Margin="10" Click="AddItem_Click"/>
         </Grid>
-        <DataGrid Name="grid" Grid.Row="1" Margin="10" MouseUp="grid_MouseUp"/>
+        <DataGrid AutoGenerateColumns="False"  
+                  Name="grid" 
+                  Grid.Row="1" 
+                  Margin="10" 
+                  MouseUp="grid_MouseUp">
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Binding="{Binding LastName}"
+                    Header="Фамилия"/>
+                <DataGridTextColumn 
+                    Binding="{Binding FirstName}"
+                    Header="Имя"/>
+                <DataGridTextColumn 
+                    Binding="{Binding Birth}"
+                    Header="Дата рождения" />
+                <DataGridTextColumn 
+                    Binding="{Binding Address}"
+                    Header="Адрес" />
+                <DataGridTextColumn 
+                    Binding="{Binding Sex}"
+                    Header="Пол" />
+                <DataGridTextColumn 
+                    Binding="{Binding Benefits}"
+                    Header="Льготы" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

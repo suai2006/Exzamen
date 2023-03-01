@@ -35,9 +35,8 @@ namespace Task21_XAML
 
     public partial class MainWindow : System.Windows.Window
     {
-        string[] dirs;
-        List<MyTable> DirectoryList;
-        List<MyTable> FiltredList;
+        private List<MyTable> DirectoryList;
+        private List<MyTable> FiltredList;
         public MainWindow()
         {
             InitializeComponent();
@@ -50,7 +49,7 @@ namespace Task21_XAML
             var fbd = new FolderBrowserDialog();
             fbd.ShowDialog();
             FolderPath.Text = fbd.SelectedPath;
-            dirs = Directory.GetDirectories(fbd.SelectedPath);
+            string[] dirs = Directory.GetDirectories(fbd.SelectedPath);
             foreach (string dir in dirs)
             {
                 if (Directory.Exists(dir))

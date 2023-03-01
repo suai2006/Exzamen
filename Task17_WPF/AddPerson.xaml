@@ -53,21 +53,6 @@
             <TextBlock Text="Пол" 
                        Grid.Row="3" 
                        Grid.Column="0"/>
-            <!--GroupBox x:Name="radioButtons"
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        >
-                <StackPanel>
-                    <RadioButton  Grid.Column="0" 
-                              GroupName="Sex" 
-                              Content="Мужской"
-                              Margin="0,0,10,0"/>
-                    <RadioButton  Grid.Column="1" 
-                              GroupName="Sex" 
-                              Content="Женский"
-                              Margin="0,0,10,0"/>
-                </StackPanel>
-            </GroupBox-->
             <Grid           
                 Grid.Row="3"
                 Grid.Column="1"

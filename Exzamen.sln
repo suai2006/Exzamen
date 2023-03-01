@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11_Form", "Task11_Form\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task17_WPF", "Task17_WPF\Task17_WPF.csproj", "{2B25EBB8-D40B-47A3-B8CB-B4F93D248541}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task21_XAML", "Task21_XAML\Task21_XAML.csproj", "{BE0894A0-5041-49A7-BECF-946F469270CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,18 @@ Global
 		{2B25EBB8-D40B-47A3-B8CB-B4F93D248541}.Release|x64.Build.0 = Release|Any CPU
 		{2B25EBB8-D40B-47A3-B8CB-B4F93D248541}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B25EBB8-D40B-47A3-B8CB-B4F93D248541}.Release|x86.Build.0 = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|x64.Build.0 = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE0894A0-5041-49A7-BECF-946F469270CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

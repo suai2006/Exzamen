@@ -13,7 +13,7 @@ int main(array<System::String ^> ^args)
     Console::Write("ֲגוהטעו נאחלונ פאיכא: ");
     String^ size = Console::ReadLine();
     array <System::String^> ^files = Directory::GetFiles(path);
-    
+    if (size == "") size = "0";
     int j = 0;
     for (int i = 0; i < files->Length; i++)
     {

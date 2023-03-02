@@ -4,21 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Interop;
 
 namespace TaskGUI6
 {
-    internal class Timeout : System.Timers.Timer
-    {
-        public Timeout(Action action, double delay)
-        {
-            this.AutoReset = false;
-            this.Interval = delay;
-            this.Elapsed += (sender, args) => action();
-            this.Start();
-        }
-    }
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
@@ -39,8 +29,8 @@ namespace TaskGUI6
         public MainWindow()
         {
             InitializeComponent();
-            var img = Properties.Resources.fish;
-            var ScreenCapture = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
+            var img = Properties.Resources.ball;
+            var ScreenCapture = Imaging.CreateBitmapSourceFromHBitmap(
                 img.GetHbitmap(),
                 IntPtr.Zero,
                 System.Windows.Int32Rect.Empty,

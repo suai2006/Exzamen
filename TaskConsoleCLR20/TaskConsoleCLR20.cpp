@@ -64,7 +64,8 @@ int main(array<System::String ^> ^args)
         Console::WriteLine("{0}: {1} {2}", prop->Name, Math::Round(size, 2), "GB");
     }
     Console::WriteLine("");
-    
+    int counter = 0;
+    // получили 5 сторк, добавим разделитель после 5-й строки
     for each (PropertyData ^ info in Win32_PhysicalMemory)
     {
         if (info->Name == "SMBIOSMemoryType") 
@@ -75,10 +76,15 @@ int main(array<System::String ^> ^args)
             else if (RAMtypeID == "22") Console::WriteLine("RAM Type: {0}", "DDR2 FB-DIMM");
             else if (RAMtypeID == "24") Console::WriteLine("RAM Type: {0}", "DDR3");
             else if (RAMtypeID == "26") Console::WriteLine("RAM Type: {0}", "DDR4");
-            else Console::WriteLine("RAM Type: {0}", "Ќе известно");
-            Console::WriteLine("");
+            else Console::WriteLine("RAM Type: {0}", "Ќе известно");            
         }
         else  Console::WriteLine("{0}: {1}", info->Name, info->Value);
+        counter++;
+        if (counter == 5) 
+        {
+            Console::WriteLine("");
+            counter = 0;
+        }
     }
     Console::ReadLine();
    

@@ -33,7 +33,7 @@ namespace TaskGUI6
             var ScreenCapture = Imaging.CreateBitmapSourceFromHBitmap(
                 img.GetHbitmap(),
                 IntPtr.Zero,
-                System.Windows.Int32Rect.Empty,
+                Int32Rect.Empty,
                 BitmapSizeOptions.FromWidthAndHeight(picWidth, picHeight));
             newImage.Source = ScreenCapture;
             newImage.Width = picWidth;

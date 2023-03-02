@@ -1,4 +1,5 @@
 #include "pch.h"
+// Программа написана с извлечение класса WMI
 
 using namespace System;
 using namespace System::Globalization;

@@ -99,6 +99,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

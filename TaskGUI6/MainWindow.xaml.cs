@@ -24,24 +24,24 @@ namespace TaskGUI6
     /// </summary>
     public partial class MainWindow : Window
     {
-        public System.Windows.Controls.Image newImage = new System.Windows.Controls.Image();
-        public Boolean isFlying = false;
-        public Point point = new Point();
-        public int dx = 0;
-        public int dy = 0;
-        public int picWidth = 64;
-        public int picHeight = 64;
-        public int current = 0;
-        public List<Point> points = new List<Point> {
+        Image newImage = new Image();
+        Boolean isFlying = false;
+        Point point = new Point();
+        int dx = 0;
+        int dy = 0;
+        int picWidth = 64;
+        int picHeight = 64;
+        int current = 0;
+        List<Point> points = new List<Point> {
             new Point { X = 16, Y = 10 },
             new Point { X = 10, Y = 16 }
         };
         public MainWindow()
         {
             InitializeComponent();
-            var ball = Properties.Resources.football;
+            var img = Properties.Resources.fish;
             var ScreenCapture = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(
-                ball.GetHbitmap(),
+                img.GetHbitmap(),
                 IntPtr.Zero,
                 System.Windows.Int32Rect.Empty,
                 BitmapSizeOptions.FromWidthAndHeight(picWidth, picHeight));
